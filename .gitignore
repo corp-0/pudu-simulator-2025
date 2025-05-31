@@ -1,22 +1,44 @@
-# Node
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
+# Build results
+bin/
+obj/
+*.user
+*.rsuser
+*.suo
+*.cache
+*.log
+*.vspscc
+*.vssscc
 
-# TypeScript
-dist/
-*.tsbuildinfo
-
-# Env/Secrets
-.env
-config.json
-
-# IDEs
-.vscode/
+# Rider
 .idea/
+*.sln.iml
 
-# OS
+# Visual Studio Code
+.vscode/
+
+# ASP.NET / Blazor / Razor artifacts
+*.db
+*.db-shm
+*.db-wal
+Generated/
+
+# .NET Core secrets and user settings
+*.dotCover
+secrets.json
+
+# .NET CLI environment
+.env
+*.props
+*.targets
+
+# Logs
+
+# OS-specific
 .DS_Store
 Thumbs.db
+
+# NuGet
+*.nupkg
+packages/
+.nuget/
+project.lock.json
